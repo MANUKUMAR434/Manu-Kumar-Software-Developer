@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Manu Kumar is a computer science student and software developer building useful digital experiences.">
+    <title>Manu Kumar | Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="#home" aria-label="Manu Kumar home"><span>MK</span> Manu Kumar</a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a class="nav-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero section-shell">
+            <div class="hero-copy">
+                <p class="eyebrow"><span></span> Available for opportunities</p>
+                <h1>Building useful<br><em>digital products.</em></h1>
+                <p class="hero-intro">I'm Manu Kumar, a computer science engineering student focused on creating reliable software and thoughtful web experiences.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+                    <a class="button button-outline" href="resume%20.pdf" download>Download resume <span aria-hidden="true">↓</span></a>
+                    <label class="button upload-button" for="photo-upload">Upload photo <span aria-hidden="true">+</span><input id="photo-upload" type="file" accept="image/*"></label>
+                    <label class="button upload-button" for="resume-upload">Upload resume <span aria-hidden="true">+</span><input id="resume-upload" type="file" accept="application/pdf,.pdf"></label>
+                    <a class="text-link" href="mailto:manukumar7108@gmail.com">manukumar7108@gmail.com</a>
+                </div>
+            </div>
+            <div class="hero-card" aria-label="Manu Kumar profile">
+                <img id="profile-preview" class="profile-photo" src="profile-photo.jpg" alt="Portrait of Manu Kumar">
+                <p class="hero-card-label">Software Developer</p>
+                <p class="hero-card-number">01<span>/</span>03</p>
+                <div class="hero-card-line"></div>
+                <p class="hero-card-note">Turning ideas into<br>working solutions.</p>
+            </div>
+        </section>
+
+        <section id="about" class="section-shell about-section">
+            <div class="section-heading"><span>01</span><h2>About me</h2></div>
+            <div class="about-grid">
+
+
+                <div class="about"><span class="about-index">01</span><h3>My address</h3><p>Village: Basantpur, P.S. Kangli, Post Office: Sughabhawanipur</p></div>
+                <div class="about"><span class="about-index">02</span><h3>District</h3><p>West Champaran, Bettiah, Bihar</p></div>
+                <div class="about"><span class="about-index">03</span><h3>State</h3><p>Bihar</p></div>
+                <div class="about"><span class="about-index">04</span><h3>Current location</h3><p>Talwandi Sabo, Bathinda, Punjab, India</p></div>
+
+                <p class="large-copy">Curious by nature, <strong>practical by choice.</strong></p>
+                <div class="about-copy">
+                    <p>I am a B.Tech Computer Science Engineering student interested in software development, problem solving and building applications that make everyday work simpler.</p>
+                    <p>I'm always learning, refining my fundamentals and looking for opportunities to contribute to meaningful products.</p>
+                    <a class="text-link" href="#contact">Let's work together <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-shell skills-section">
+            <div class="section-heading"><span>02</span><h2>Tools</h2></div>
+            <div class="skill-grid">
+                <div class="skill-item"><span class="skill-index">01</span><h3>Languages</h3><p>Java . JavaScript . HTML . CSS . Python</p></div>
+                <div class="skill-item"><span class="skill-index">02</span><h3>Frontend</h3><p>HTML5 · CSS3 · JavaScript</p></div>
+                <div class="skill-item"><span class="skill-index">03</span><h3>Backend</h3><p>Java · MySQL</p></div>
+                <div class="skill-item"><span class="skill-index">04</span><h3>Development Tools</h3><p> GitHub · VS Code</p></div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-shell projects-section">
+            <div class="section-heading"><span>03</span><h2>Selected work</h2></div>
+            <div class="project-list">
+                <article class="project-card project-card-featured">
+                    <div class="project-visual shopping-visual"><span>SHOP</span><i>↗</i></div>
+                    <div class="project-info"><p class="project-type">Web application / 01</p><h3>Online Shopping System</h3><p>A web-based shopping application designed around a clear and straightforward buying journey.</p><a href="#contact" aria-label="Discuss Online Shopping System project">View project <span>↗</span></a></div>
+                </article>
+                <article class="project-card">
+                    <div class="project-visual employee-visual"><span>TEAM</span><i>↗</i></div>
+                    <div class="project-info"><p class="project-type">Management tool / 02</p><h3>Employee Management System</h3><p>An application for organizing employee information and making daily administration easier.</p><a href="#contact" aria-label="Discuss Employee Management System project">View project <span>↗</span></a></div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="section-shell contact-grid">
+                <div><p class="eyebrow"><span></span> Have a project in mind?</p><h2>Let's make something<br><em>worth building.</em></h2><a class="contact-email" href="mailto:manukumar7108@gmail.com">manukumar7108@gmail.com</a><a class="contact-phone" href="tel:+919102546196">+91 91025 46196</a></div>
+                <form action="https://formsubmit.co/manukumar7108@gmail.com" method="POST">
+                    <label for="name">Your name</label><input id="name" type="text" name="name" placeholder="Manu Kumar" required>
+                    <label for="email">Email address</label><input id="email" type="email" name="email" placeholder="you@example.com" required>
+                    <label for="message">How can I help?</label><textarea id="message" name="message" placeholder="Tell me a little about your project..." rows="4" required></textarea>
+                    <input type="hidden" name="_subject" value="New Portfolio Contact"><button class="button button-light" type="submit">Send message <span aria-hidden="true">↗</span></button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Manu Kumar. All rights reserved.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
